@@ -1,0 +1,5 @@
+pip install -r requirements.txt
+
+pyinstaller --onefile --additional-hooks-dir=. --add-data "C:\Users\zmysl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pycuda;pycuda" Python_GPU_Tester.py
+
+# Oczywiście uruchomiony plik .exe będzie rzucał warningami, ale działa, więc trudno :DDDDDD
